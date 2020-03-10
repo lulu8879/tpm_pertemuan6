@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/activitymain_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Name"/>
+
+    <EditText
+        android:id="@+id/activitymain_et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Address"/>
+
+    <EditText
+        android:id="@+id/activitymain_et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1"
+        android:inputType="text"
+        android:hint="Input Gender (L/P)"/>
+
+    <Button
+        android:id="@+id/activitymain_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <Button
+        android:id="@+id/activitymain_btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List"/>
+
+
+</LinearLayout>
